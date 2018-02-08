@@ -1,0 +1,133 @@
+body {	
+	align-content: center;
+    font-family:'Work Sans', sans-serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+#wrapper {
+    background-image:url(https://www.toniturner.com/wp-content/uploads/2014/06/finance-stock-exchange-wallpaper-3-blur1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+}
+
+nav {
+	height: 40px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 5px 0px;
+	color: white;
+	text-align: center;
+	align-content: center;
+	overflow: hidden;
+}
+
+#navbar h4{
+	color: white;
+	font-family: sans-serif;
+	display: inline;
+	padding: 20px;
+}
+
+a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.0);
+	line-height: 40px;
+	padding: 10px;
+}
+
+a:hover {
+	color: skyblue;
+	border-color: white;
+}
+
+footer li {
+display: inline;
+text-align: center;
+padding: 10px;
+font-weight: bold;	
+}
+
+#banner {
+    margin: 100px;
+    padding: 20px;
+}
+
+#about {
+	width: 400px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	right: 50%;
+	padding: 10px;
+	position: absolute;
+	margin-right: 10px;
+	border: 2px solid gray;
+	font-family: 'Work Sans';
+	line-height: 2;
+}
+#about span {
+	font-size: 20px;
+}
+
+#aboutImage {
+	width: 500px;
+	left: 50%;
+	display: inline;
+	position: absolute;
+	margin-left: 10px;
+
+}
+
+.title {
+	letter-spacing: 5px;
+	margin: auto;
+	position: relative;
+	font-size: 60px;
+	color: rgb(255,255,255,0.85);
+}
+
+ul {
+	width: 200px;
+	margin: auto;
+	position: relative;
+	background-color: rgba(255,255,255,0.75);
+	color: black;
+	text-align: center;
+	padding: 20px;
+	font-style: italic;
+	border: 3px solid black;
+}
+
+.services {
+	width: 400px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+	border: 2px solid gray;
+	line-height: 2;
+}
+
+.bottomLogo {
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+	position: static;
+	padding: 10px;
+	overflow: hidden;
+}
