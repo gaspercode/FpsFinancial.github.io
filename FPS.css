@@ -93,7 +93,7 @@ font-weight: bold;
 }
 
 .title {
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 	margin: auto;
 	position: relative;
 	font-size: 60px;
@@ -123,11 +123,52 @@ ul {
 	line-height: 2;
 }
 
+#questionBox {
+	width: 1000px;
+	margin: auto;
+	position: relative;
+	padding: 10px;
+	border: 2px solid gray;
+	background-color: rgba(0,0,0,0.5);
+	text-align: left;
+
+}
+
+#contactBox {
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+	padding: 10px;
+	border: 2px solid gray;
+	background-color: rgba(0,0,0,0.5);
+	text-align: left;
+}
+
+#contactRight {
+	width: 50%;
+	float: right;
+	text-align: center;
+	position: relative;
+}
+
+#contactLeft {
+	width: 50%;
+	height: 95%;
+	float: left;
+	border-right: 1px solid gray;
+	position: absolute;
+}
+
+#leftBlurb {
+	margin-top: 30%;
+}
+
 .bottomLogo {
 	bottom: 0;
 	margin: auto;
 	width: 100%;
-	position: static;
+	position: relative;
 	padding: 10px;
 	overflow: hidden;
 }
